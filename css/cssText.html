@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Css Text</title>
+		<style>
+
+
+			
+			.paragraph1{
+				width: 500px;
+			}
+
+/*			text color*/
+
+			.paragraph1{
+				color: blue;
+				/*color: #eebb;
+				color: rgba(200,100,150,0.6);*/
+			}
+
+/*			text alignment*/
+
+			.paragraph1{
+
+/*				text-align: left; default*/
+/*				text-align: center;*/
+/*				text-align: right;*/
+/*				text-align: justify;*/
+
+/*				text-align-last: left;*/
+/*				text-align-last: center;*/
+/*				text-align-last: right;*/
+/*				text-align-last: justify;*/
+
+				direction: rtl;
+/*				direction: ltr;*/
+			
+				unicode-bidi: normal;
+				unicode-bidi: embed;
+				unicode-bidi: bidi-override;
+				unicode-bidi: isolate;
+				unicode-bidi: isolate-override;
+				unicode-bidi: plaintext;
+			}
+
+/*			user select*/
+
+			.paragraph1{
+
+				user-select: auto;
+				user-select: none;
+				user-select: text;
+				user-select: all;
+			}
+			div{
+				background-color: darkgrey;
+				height: 200px;
+				border: 2px solid black;
+			}
+
+			div h3{
+				background-color: darkslateblue;
+				color: #fff;
+				padding: 20px;
+			}
+
+			span{
+/*				background-color: cyan;*/
+				color: black;
+
+				font-size: 2em;
+
+/*				vertical-align: baseline;
+				vertical-align: sub;
+				vertical-align: super;
+				vertical-align: top;
+				vertical-align: text-top;
+				vertical-align: middle;
+				vertical-align: bottom;
+				vertical-align: text-bottom;*/
+			}
+
+
+			span{
+				text-decoration-line: overline;
+				text-decoration-line: underline;
+				text-decoration-line: line-through;
+				text-decoration-line: overline underline;
+
+				text-decoration-color: cyan;
+				text-decoration-color: #fff;
+				text-decoration-color: rgba(0,0,0,0.5);
+
+				text-decoration-style: dotted;
+				text-decoration-style: dashed;
+				text-decoration-style: double;
+				text-decoration-style: wavy;
+				text-decoration-style: solid;
+
+				text-decoration-thickness: 20px;
+				text-decoration-thickness: 0.5cm;
+				text-decoration-thickness: 2em;
+				text-decoration-thickness: 50%;
+				text-decoration-thickness: auto;
+
+/*
+				text-decoration: [ 
+									text-decoration-line(required)
+								   	text-decoration-color
+								   	text-decoration-style
+								   	text-decoration-thickness 
+								 ] / initial / inherit ;
+
+*/
+
+
+
+/*				text-decoration: overline;*/
+/*				text-decoration: overline line-through;*/
+/*				text-decoration: overline line-through cyan dashed 10px;*/
+
+
+			}
+
+			h3{
+
+				text-transform: uppercase;
+				text-transform: lowercase;
+				text-transform: capitalize;
+			}
+
+			.paragraph2{
+
+				background-color: darkgrey;
+				width: 800px;
+				height: auto;
+
+				border: 2px solid black;
+				
+
+
+
+				text-indent: 30px;
+				text-indent: 20%;
+				text-indent: 5em;				
+				text-indent: 5cm;
+
+
+				letter-spacing: 5px;
+				letter-spacing: -5px;
+				letter-spacing: 2em;
+				letter-spacing: normal;
+
+				word-spacing: 5px;
+				word-spacing: -5px;
+				word-spacing: 3rem;
+				word-spacing: 3cm;
+				word-spacing: normal;
+
+/*				letter-spacing: 50%; */ /* cannot use */
+			}
+
+			.div2{
+
+				line-height: 5;
+				line-height: 2px;
+				line-height: 30px;
+				line-height: 200%;
+				line-height: normal;
+
+				white-space: wrap;
+				white-space: nowrap;
+				white-space: pre;
+				white-space: pre-line;
+				white-space: pre-wrap;
+
+				/* translate to eng  */
+			}
+
+			h1{
+
+				text-align: center;
+				line-height: 200px;
+
+				text-shadow: 50px 10px 3px cyan;
+				text-shadow: 100px 5px 5px yellow, 0 0 10px cyan;
+			}
+		</style>
+	</head>
+	<body>
+
+
+		<p class="paragraph1">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<br/>
+		<br/>
+		<br/>
+
+
+		<div>
+			<h3>This is <span>Vertical</span> Align</h3>
+		</div>
+
+		<p class="paragraph2">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<div class="div2">
+			
+			<P class="paragraph3">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</P>
+
+		</div>	
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<div>
+			<h1>Text Shadow Effect</h1>
+		</div>
+
+	</body>
+</html>
